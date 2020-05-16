@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+issueTrackerURL="https://github.com/FliegendeWurst/ServerTPS/issues"
+
+[[mods]]
+modId="servertps"
+displayName="ServerTPS"
+version="1.0"
+#updateJSONURL="https://servertps.com/"
+displayURL="https://github.com/FliegendeWurst/ServerTPS/"
+#logoFile="servertps.png"
+authors="FliegendeWurst"
+description='''
+Displays server TPS estimate and client CPU usage in F3 debug screen
+'''
+
+[[dependencies.servertps]]
+	modId="forge"
+	mandatory=true
+	versionRange="[31,)" #mandatory
+	ordering="NONE"
+	side="BOTH"
+[[dependencies.servertps]]
+	modId="minecraft"
+	mandatory=true
+	versionRange="[1.15.2]"
+	ordering="NONE"
+	side="BOTH"
